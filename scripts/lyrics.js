@@ -4,7 +4,7 @@ const getSongLyric = async (artist, song) => {
 	const query = `${artist}/${song}`
 
 	const response = await fetch(base + query)
-    const data = await response.json()
-    
+	const data = await response.json()
+
 	return data.lyrics
 }
