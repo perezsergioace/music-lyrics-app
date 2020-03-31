@@ -13,6 +13,36 @@
 
 <body>
 
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand">Song Lyrics</a>
+        <button class="btn btn-outline-success my-2 my-sm-0"
+            onclick="window.open('https://github.com/perezsergioace/music-lyrics-app','_blank');" type="button"
+            target="_blank">View Code on Github</button>
+    </nav>
+
+    <div class="container">
+        <form class="my-4">
+            <div class="form-group my-4">
+                <label for="artist">Enter Artist's Name</label>
+                <input type="text" class="form-control" name="artist">
+            </div>
+            <div class="form-group">
+                <label for="song">Song Name</label>
+                <input type="text" class="form-control" name="song">
+            </div>
+            <button type="submit" class="btn btn-outline-success">Submit</button>
+        </form>
+
+        <div class="card d-none">
+            <div class="text-muted text-uppercase text-center details">
+                <div class="display-6 my-4">
+                    <span>lyrics</span>
+                </div>
+                <p class="my-3"></p>
+            </div>
+        </div>
+    </div>
+
     <!-- loading in js files -->
     <script src="./scripts/lyrics.js"></script>
     <script src="./scripts/app.js"></script>
