@@ -2,6 +2,7 @@
 	max-width: 800px;
 }
 
-p {
-    white-space: pre;
+.lyrics-text {
+    white-space: pre-wrap;
+    line-height: 2em;
 }

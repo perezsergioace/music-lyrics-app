@@ -10,7 +10,7 @@ const updateUI = (data) => {
         <div class="display-6 my-4">
             <span>lyrics:</span>
         </div>
-        <p class="my-3 p-4 text-left">${songLyrics}</p>
+        <p class="lyrics-text my-3 px-5 text-left text-capitalize">${songLyrics}</p>
     `
 	// remove the d-none class if present
 	if (card.classList.contains('d-none')) {
