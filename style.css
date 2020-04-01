@@ -1,8 +1,21 @@
+.masthead {
+	height: 100vh;
+	min-height: 500px;
+	background-image: url('https://source.unsplash.com/Np7PtziXpN8/1920x1800');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.click-here-link {
+	color: #0000009d;
+}
+
 .container {
-	max-width: 800px;
+	max-width: 60%;
 }
 
 .lyrics-text {
-    white-space: pre-wrap;
-    line-height: 2em;
+	white-space: pre-wrap;
+	line-height: 2em;
 }
