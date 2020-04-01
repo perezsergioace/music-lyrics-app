@@ -19,3 +19,9 @@
 	white-space: pre-wrap;
 	line-height: 2em;
 }
+
+@media only screen and (max-width: 900px) {
+	.container {
+		max-width: 100%;
+	}
+}
